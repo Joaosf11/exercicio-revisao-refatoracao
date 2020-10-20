@@ -5,10 +5,16 @@
 #include <string>
 
 class Empregado {
-	
+  private:
+	 double salarioHora;  
+         std::string nome;  
   public:
-    double salarioHora;  
-    double quotaMensalVendas;  
+	double getslarioHora () {return salarioHora}
+	void setsalarioHora (double a) {salarioHora = a}
+	
+	std::string getnome (){ return nome }
+        void setnome (std::string a) { nome = a }
+   
 
 
     double pagamentoMes(double horasTrabalhadas) {
