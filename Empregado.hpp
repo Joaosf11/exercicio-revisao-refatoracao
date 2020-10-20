@@ -8,7 +8,7 @@ class Empregado {
 	
   public:
     double salarioHora;  
-    double quotaMensalVendas;  
+    
 
 
     double pagamentoMes(double horasTrabalhadas) {
